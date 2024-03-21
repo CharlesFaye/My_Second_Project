@@ -1,0 +1,212 @@
+@font-face
+{
+	font-family: 'BallparkWeiner';
+	           src: url('polices/ballpark.eot');
+	           src: url('polices/ballpark.eot?#iefix')
+	           format('embedded_opentype'),
+	                url('polices/ballpark.wotf')
+	                format('wotf'),
+	                url('polices/ballpark.ttf')
+	                format('truetype'),
+	                url('polices/ballpark.svg#BallparkWeiner')
+	                format('svg');
+}
+@font-face
+{
+	font-family: 'Dayrom';
+	           src: url('polices/dayrom.eot');
+	           src: url('polices/dayrom.eot?#iefix')
+	           format('embedded_opentype'),
+	                url('polices/dayrom.wotf')
+	                format('wotf'),
+	                url('polices/dayrom.ttf')
+	                format('truetype'),
+	                url('polices/dayrom.svg#Dayrom')
+	                format('svg');
+}
+#bloc_page
+{
+	width: 900px;
+	margin: auto;
+}
+header h1
+{
+	text-transform: uppercase;
+	font-family: 'BallparkWeiner', serif;
+	font-size: 5em;
+	font-weight: normal;
+	text-align: center;
+	color: darkred;
+}
+header
+{
+	background-color: skyblue;
+}
+nav ul 
+{
+	list-style-type: none;
+}
+nav li 
+{
+	padding-top: 5px;
+}
+nav a 
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: dodgerblue;
+	font-family: 'Dayrom', serif;
+	font-size: 1.2em;
+}
+nav ol 
+{
+	list-style-image: url('images/ico_liensexterne.png');
+}
+nav ol a  
+{
+	color: seagreen;
+	font-size: 1em;
+	font-weight: bold;
+}
+.fond
+{
+    position: absolute;
+	top: 208px;
+	left: 410px;
+	height: 570px;
+	width: 2px;
+}
+nav
+{
+	float: left;
+	width: 210px;
+}
+footer
+{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+section p 
+{
+	font-family: 'Dayrom', serif;
+	font-size: 1.2em;
+
+}
+section
+{
+   margin-top: 70px;
+   background-color: snow;
+}
+#contact
+{
+	width: 35%;
+	margin-left: 10px;
+}
+#réseau
+{
+	width: 30%;
+}
+#collection
+{
+	width: 35%;
+}
+section p:last-child
+{
+	margin-left: 210px;
+}
+footer h1
+{
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-family: 'Dayrom', serif;
+	color: darkred;
+	font-weight: normal;
+}
+footer p 
+{
+	font-family: 'Dayrom', serif;
+	font-size: 1.2em;
+}
+#collection a
+{
+	font-family: 'Dayrom', serif;
+	font-size: 1.2em;
+	color: purple;
+
+}
+#collection ul 
+{
+	list-style-type: none;
+}
+#contact a 
+{
+	color: seagreen;
+}
+.bleu 
+{
+   color: indianred;
+}
+section a 
+{
+	text-decoration: none;
+	color: blue;
+}
+#bas_droite
+{
+	position: absolute;
+	bottom: -360px;
+	right: 225px;
+}
+@media all and (min-width: 480px) and (max-width: 700px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+	nav img
+	{
+		display: none;
+	}
+	section p:last-child
+	{
+		margin: auto;
+	}
+	nav
+	{
+        float: none;
+        width: auto;
+        background: url('images/fond_degraderouge.png') repeat-y left;
+	}
+	section
+	{
+		margin-top: 0px;
+	}
+	footer
+	{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+	}
+	#contact
+	{
+		width: auto;
+	}
+	#réseau
+	{
+		width: auto;
+	}
+	#collection
+	{
+		width: auto;
+	}
+	#bas_droite
+	{
+		position: absolute;
+		bottom: -1120px;
+		right: 10px;
+	}
+	
+}
