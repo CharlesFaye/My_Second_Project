@@ -1,0 +1,102 @@
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+               src: url('polices/ballpark.eot');
+               src: url('polices/ballpark.eot?#iefix')
+               format('embedded_opentype'),
+                    url('polices/ballpark.wotf')
+                    format('wotf'),
+                    url('polices/ballpark.ttf')
+                    format('truetype'),
+                    url('polices/ballpark.svg#BallparkWeiner')
+                    format('svg');
+}
+@font-face
+{
+    font-family: 'Dayrom';
+               src: url('polices/dayrom.eot');
+               src: url('polices/dayrom.eot?#iefix')
+               format('embedded_opentype'),
+                    url('polices/dayrom.wotf')
+                    format('wotf'),
+                    url('polices/dayrom.ttf')
+                    format('truetype'),
+                    url('polices/dayrom.svg#Dayrom')
+                    format('svg');
+}
+#bloc_page
+{
+    margin: auto;
+}
+header h2
+{
+    text-transform: uppercase;
+    font-family: 'Dayrom', serif;
+    color: darkred;
+    font-weight: normal;
+    font-size: 1.3em;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px;
+}
+header p 
+{
+    font-family: 'Dayrom', serif;
+    font-size: 1.1em;
+    text-align: justify;
+}
+.image
+{
+    float: right;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+h1
+{
+    text-align: center;
+    color: navy;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.5em;
+    font-family: 'Dayrom', serif;
+    text-shadow: 4px 4px 4px;
+
+}
+.centre
+{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+#entete
+{
+    background-color: silver;
+    text-align: center;
+    padding: 25px;
+}
+.bleu
+{
+    color: maroon;
+}
+#contenu
+{
+    background-color: skyblue;
+    height: 1650px;
+    font-family: 'Dayrom', serif;
+}
+.droite
+{
+    text-align: right;
+}
+.droite
+{
+    text-align: right;
+}
+.gauche
+{
+    position: absolute;
+    left: 20px;
+    bottom: -1310px;
+}
