@@ -1,0 +1,100 @@
+@font-face
+{
+	font-family: 'BallparkWeiner';
+	           src: url('polices/ballpark.eot');
+               src: url('polices/ballpark.eot?#iefix')
+               format('embedded_opentype'),
+               url('polices/ballpark.wotf')
+               format('wotf'),
+               url('polices/ballpark.ttf')
+               format('truetype'),
+               url('polices/ballpark.svg#BallparkWeiner')
+               format('svg');
+}
+@font-face
+{
+	font-family: 'Dayrom';
+	           src: url('polices/dayrom.eot');
+               src: url('polices/dayrom.eot?#iefix')
+               format('embedded_opentype'),
+               url('polices/dayrom.wotf')
+               format('wotf'),
+               url('polices/dayrom.ttf')
+               format('truetype'),
+               url('polices/dayrom.svg#Dayrom')
+               format('svg');
+}
+#bloc_page
+{
+	margin: auto;
+}
+header h2
+{
+	text-align: center;
+	font-family: 'Dayrom', serif;
+	font-size: 1.3em;
+	color: darkred;
+	text-transform: uppercase;
+	font-weight: normal;
+	border: 2px solid black;
+	border-radius: 5px;
+	box-shadow: 4px 4px 4px;
+}
+header p 
+{
+	font-family: 'Dayrom', serif;
+	font-size: 1.1em;
+	text-align: justify;
+}
+.image
+{
+	float: right;
+	text-align: center;
+	color: blue;
+	text-decoration: underline;
+}
+h1
+{
+	text-align: center;
+	text-shadow: 4px 4px 4px;
+	color: navy;
+	font-family: 'Dayrom', serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+section 
+{
+	font-family: 'Dayrom', serif;
+	font-size: 1.1em;
+}
+.centre
+{
+	text-align: center;
+	color: blue;
+	text-decoration: underline;
+}
+#entete
+{
+	background-color: beige;
+	padding: 25px;
+}
+#contenu
+{
+	background-color: ivory;
+}
+.bleu
+{
+	color: blue;
+}
+.droite
+{
+	text-align: right;
+}
+.gauche
+{
+	position: absolute;
+	left: 25px;
+	bottom: -1320px;
+
+}
