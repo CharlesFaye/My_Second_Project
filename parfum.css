@@ -1,0 +1,138 @@
+
+@font-face
+{
+	font-family: 'BallparkWeiner';
+	           src: url('polices/ballpark.eot');
+	           src: url('polices/ballpark.eot?#iefix')
+	           format('embedded_opentype'),
+	                url('polices/ballpark.wotf')
+	                format('wotf'),
+	                url('polices/ballpark.ttf')
+	                format('truetype'),
+	                url('polices/ballpark.svg#BallparkWeiner')
+	                format('svg');
+}
+@font-face
+{
+	font-family: 'Dayrom';
+	           src: url('polices/dayrom.eot');
+	           src: url('polices/dayrom.eot?#iefix')
+	           format('embedded_opentype'),
+	                url('polices/dayrom.wotf')
+	                format('wotf'),
+	                url('polices/dayrom.ttf')
+	                format('truetype'),
+	                url('polices/dayrom.svg#Dayrom')
+	                format('svg');
+}
+#bloc_page
+{
+	margin: auto;
+}
+header h2
+{
+	text-transform: uppercase;
+	font-family: 'Dayrom', serif;
+	font-size: 1.3em;
+	color: darkred;
+	font-weight: normal;
+	border: 2px solid black;
+	border-radius: 5px;
+	box-shadow: 4px 4px 4px;
+}
+header p 
+{
+	font-family: 'Dayrom', serif;
+	font-weight: normal;
+	font-size: 1.1em;
+	text-align: justify;
+}
+
+
+.image
+{
+	float: right;
+	text-align: center;
+	color: blue;
+	text-decoration: underline;
+}
+ #titre1
+{
+	text-align: center;
+	text-decoration: none;
+	color: navy;
+	font-family: 'Dayrom', serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: normal;
+	text-shadow: 4px 4px 4px;
+}
+.centre
+{
+	text-align: center;
+	color: blue;
+	text-decoration: underline;
+}
+#entete
+{
+	background-color:lavender ;
+	text-align: center;
+	padding: 25px;
+}
+.bleu
+{
+	color: maroon;
+}
+#contenu
+{
+	background-color: silver;
+	height: 1650px;
+	font-family: 'Dayrom', serif;
+}
+footer
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: lavender;
+	margin-top: 50px;
+	padding-top: 50px;
+
+}
+footer h1
+{
+	text-transform: uppercase;
+	font-family: 'Dayrom', serif;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+#contact p 
+{
+	font-family: 'Dayrom', serif;
+	font-size: 1.2em;
+	color: navy;
+}
+#lien a 
+{
+	font-family: 'Dayrom', serif;
+	font-size: 1.2em;
+	text-decoration: underline;
+	color: red;
+}
+#mention h1
+{
+	text-align: center;
+}
+#mention p
+{
+	font-family: 'Dayrom', serif;
+	font-size: 1.4em;
+	color: darkred;
+}
+#site a
+{
+	font-family: 'Dayrom', serif;
+	font-size: 1.3em;
+	color: green;
+	text-decoration: none;
+}
